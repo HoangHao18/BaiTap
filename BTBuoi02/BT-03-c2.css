@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-.clearfix{
-    clear: both;
-}
-
 .container, header, footer{
     width: 720px;
 }
@@ -21,10 +17,12 @@ header{
 .main{
     padding-top: 20px;
     background-image: linear-gradient(to left, #eee 75%, #aaa 25%);
+    font-size: 0;
 }
 
 .column1, .column2{
-    float: left;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .column1{
@@ -34,7 +32,6 @@ header{
 
 .column2{
     width: 75%;
-    
     padding-left: 10px;
 }
 
